@@ -1,0 +1,50 @@
+
+.todoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin: 200px auto;
+    background-color: rgba(219, 4, 4, 0.685);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 1, 1);
+    border-radius: 10px;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+
+.submitButton{
+    border: 2px solid #000000;
+    border-radius: 6px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 6px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    height: auto;
+}
+
+.submitButton:hover{
+    background-color: #d74c1e;
+      color: white;
+      border: 1px solid black;
+      text-align: center;
+}
+
+.todoInput{
+    border-radius: 5px;
+    width: 70%;
+    height: auto;
+    border: none;
+}
+

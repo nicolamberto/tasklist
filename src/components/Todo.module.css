@@ -1,0 +1,98 @@
+.taskContainer {
+ display: flex;
+ justify-content: space-between;
+}
+
+.todoTitle{
+ color: white;
+ font-size: 1.2rem;
+}
+
+.buttonContainer{
+    margin: 5px;
+
+}
+
+.editButton{
+    border: 2px solid #000000;
+    border-radius: 6px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 6px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    height: auto;
+}
+
+.deleteButton{
+    border: 2px solid #000000;
+    border-radius: 6px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 6px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    height: auto;
+    margin-left: 5px;
+}
+
+.editButton:hover{
+    background-color: #e8a30e;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.deleteButton:hover{
+    background-color: #ff0000;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.updateButton{
+    border: 2px solid #000000;
+    border-radius: 6px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 6px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    height: auto;
+    margin-left: 5px;
+}
+
+.updateButton:hover{
+    background-color: #1ba338;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.updateContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.updatePlacer{
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.777);
+}
